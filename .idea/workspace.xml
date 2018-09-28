@@ -832,7 +832,6 @@
       <change afterPath="$PROJECT_DIR$/server/static/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/view/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongoDB/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mongoDB/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -962,7 +961,7 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="349" />
+    <option name="x" value="489" />
     <option name="y" value="38" />
     <option name="width" value="1200" />
     <option name="height" value="867" />
@@ -1060,11 +1059,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538099327362</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mongodb增删改查">
+      <created>1538145961518</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1538145961518</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="342" y="33" width="1200" height="867" extended-state="0" />
+    <frame x="349" y="38" width="1200" height="867" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1100,7 +1106,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="mongodb增删改查" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongodb增删改查" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
