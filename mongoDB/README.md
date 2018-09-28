@@ -77,7 +77,21 @@ db.user.findOne()  // 查询第一条
 
 # js中编写mongodb
 
+批量导入mongo语句
 
+新建goTesk.js
+```
+var userName = "cincheng"
+var timeStamp = Date.parse(new Date())
+var jsonDdatabase = {"loginUnser":userName,"longiTime":timeStamp}
+var db = connect('log')
+db.login.insert(jsonDdatabase)
+print('db is OK')
+```
+
+# 批量插入 VS 循环插入
+
+批量插入性能高于循环插入
 
 
 

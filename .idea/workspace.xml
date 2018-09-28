@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30811fae-0996-4eff-803c-d9dd6b60a937" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/mongoDB/goTesk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/insertDB.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mongoDB/pinsertB.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/async.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/bodyparaser.js" afterDir="false" />
@@ -832,6 +835,7 @@
       <change afterPath="$PROJECT_DIR$/server/static/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/view/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongoDB/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mongoDB/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -842,11 +846,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mongoDB/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="442">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="insertDB.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mongoDB/insertDB.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pinsertB.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mongoDB/pinsertB.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="goTesk.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mongoDB/goTesk.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -860,6 +891,11 @@
         <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jsonDdatabase</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -892,7 +928,10 @@
         <option value="$PROJECT_DIR$/server/koaStatic.js" />
         <option value="$PROJECT_DIR$/server/static/index.js" />
         <option value="$PROJECT_DIR$/server/async.js" />
+        <option value="$PROJECT_DIR$/mongoDB/goTesk.js" />
         <option value="$PROJECT_DIR$/mongoDB/README.md" />
+        <option value="$PROJECT_DIR$/mongoDB/insertDB.js" />
+        <option value="$PROJECT_DIR$/mongoDB/pinsertB.js" />
       </list>
     </option>
   </component>
@@ -961,8 +1000,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="489" />
-    <option name="y" value="38" />
+    <option name="x" value="531" />
+    <option name="y" value="66" />
     <option name="width" value="1200" />
     <option name="height" value="867" />
   </component>
@@ -1066,11 +1105,19 @@
       <option name="project" value="LOCAL" />
       <updated>1538145961518</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="mongodb增删改查">
+      <created>1538146381585</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1538146381586</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="349" y="38" width="1200" height="867" extended-state="0" />
+    <frame x="531" y="66" width="1200" height="867" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -1078,8 +1125,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.26363635" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19516407" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.26233765" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19516407" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="right" id="SciView" order="3" />
@@ -1115,27 +1162,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/znodeexect/reactInputTwo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/znodeexect/http.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/znodeexect/express.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/znodeexect/fs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1465,10 +1491,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mongoDB/goTesk.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mongoDB/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="442">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoDB/insertDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongoDB/pinsertB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
