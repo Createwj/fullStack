@@ -124,52 +124,60 @@ var workmate10={
     regeditTime:new Date(),
     interest:[]
 }
-var db=connect('company');
+var db=connect('companys');
 var workmateArray=[workmate1,workmate2,workmate3,workmate4,workmate5,workmate6,workmate7,workmate8,workmate9,workmate10];
-db.workmate.insert(workmateArray);
-
+db.coding.insert(workmateArray);
 print('[SUCCESS]：The data was inserted successfully');
 
 /**
- *  Mongo
  *
- *  cd mongoDB
+ *  简单查找
  *
- *  mongo forfind.js
+ *  db.coding.find()
  *
- *  sudo mongo
+ *  字段筛选
  *
- *  show dbs
+ *  db.coding.find({"skill.skillOne":"HTML+CSS"})
  *
- *  use company
- *
- *  db.workmate.find()
- *
- *  db.workmate.update({name:"xincheng"},{age:25})  // 修改
- *
- *  db.workmate.update({name:"xincheng"},{"$set":{insterst:"draw"}})  // 修改指定属性
- *
- *  db.workmate.update({name:"xincheng"},{"$set":{insterst:[]}},{multi:true})  // 批量增加属性
- *
- *  db.workmate.update({name:"xiaowang"},{"$set":{age:25}},{upsert:true})  // 不存在的话 新增这个属性
- *
- *  db.workmate.update({name:"xincheng"},{"$upsh":{insterst:"drap"}})  // 向数组里面 追加字段
- *
- *  db.workmate.update({name:"xincheng"},{"$addToSet":{insterst:"draw"}})  // 查案是否存在 不存在自动加进去 存在的话修改
- *
- *  db.workmate.update({name:"xincheng"},{"$addToSet":{insterst:{"$each":[1,3,4]}}})  // $each批量增加
- *
- *  db.workmate.update({name:"xincheng"},{"$pop":{insterst:1}})  // 删除  1 数组末尾删除  -1 数组开始删除
- *
- *  db.workmate.update({name:"xincheng"},{$set:{insterst.2:"code"}})  // 修改指定的位置的数据
+ *  db.coding.find({"skill.skillOne":"HTML+CSS"},{name:true,"skill.skillOne":true,_id:false})
  *
  *
  *
+ *  -- 查询 --  http://jspang.com/post/mongodb.html#toc-6e5
  *
- *  // runCommand
+ *  不等修饰符
+ *  小于$lt   小于等于$lte   大于$gt   大于等于$gte   不等于$ne
  *
  *
- *  // findAndModify
+ *  日期查找 查找注册日期大于2018-01-01的用户显示  姓名 年龄 技能1 隐藏id
+ *  $gt
+ *  db.coding.find({regeditTime:{$gt:new Date('01/01/2018')}},{name:true,age:true,"skill.skillOne":true,_id:false})
+ *
+ *
+ *  查找 年龄在25-33之间的数据
+ *  $in
+ *  db.coding.find({age:{$in:[25,33]}},{name:true,"skill.skillOne":true,age:true,_id:false})
+ *
+ *
+ *  或者关系修饰符
+ *  $or
+ *  db.coding.find({$or:[{age:{$gt:30}},{"skill.skillThree":"PHP"}]},{name:1,"skill.skillThree":1,age:1,_id:0})
+ *
+ *
+ *  并且关系修饰符
+ *  $and
+ *  db.coding.find({$and:[{age:{$gt:30}},{"skill.skillThree":"PHP"}]},{name:1,"skill.skillThree":1,age:1,_id:0})
+ *
+ *
+ *  $not 修饰符
+ *  db.coding.find({age:{$not:{$lte:30,$gte:20}}},{name:1,"skill.skillOne":1,age:1,_id:0})
+ *
+ *
+ *  基本数组查询
+ *  db.coding.find({interest:["画画","聚会","看电影"]},{name:1,interest:1,_id:0})
+ *
+ *
+ *
  *
  *
  *

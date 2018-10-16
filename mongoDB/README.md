@@ -20,8 +20,10 @@ sudo apt-get install mongodb
 
 ** 启动 mongodb **
 
-sudo mongod
+使用mongodb之前首先需要启动服务端 才能使用mongobd
 
+1. Mongod
+2. sudo mongod
 ```
 http://localhost:27017/
 ```
@@ -85,7 +87,7 @@ var userName = "cincheng"
 var timeStamp = Date.parse(new Date())
 var jsonDdatabase = {"loginUnser":userName,"longiTime":timeStamp}
 var db = connect('log')
-db.login.insert(jsonDdatabase)
+db.login.insert(db.jspang.update({"name":"jspang"},{"name":"jspang","age":"32"}))
 print('db is OK')
 ```
 
@@ -281,6 +283,27 @@ db.workmate.find(
     {name:1,age:1,_id:0,"skill.skillThree":1}
 )
 ```
+
+$and修饰符
+
+and修饰符 表死同时满足的情况
+```
+db.workmate.find({$and:[
+    {age:{$gte:30}},
+    {"skill.skillOne":'php'}
+]},
+    {name:1,"skill.skillOne":1,age:1,_id:0}
+)
+```
+
+$not 修饰符
+
+相反
+
+
+
+
+# find数组查询
 
 
 
