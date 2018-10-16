@@ -173,13 +173,58 @@ print('[SUCCESS]：The data was inserted successfully');
  *  db.coding.find({age:{$not:{$lte:30,$gte:20}}},{name:1,"skill.skillOne":1,age:1,_id:0})
  *
  *
+ *
+ *
  *  基本数组查询
+ *
+ *  精确查找
  *  db.coding.find({interest:["画画","聚会","看电影"]},{name:1,interest:1,_id:0})
  *
  *
+ *  $all 数组多项查找 满足看电影 看书 就查找出来了
+ *  db.coding.find({interest:{$all:{"看电影","看书"}},{name:1,interest:1,_id:0}})
+ *
+ *
+ *  $in 数组的或者查询 满足其中一项就查找出来了
+ *  db.coding.find({interest:{$in:{"看电影","看书"}},{name:1,age:1,_id:0}})
+ *
+ *
+ *  $size  数组个数查询  兴趣数量达到5个的 会被查找出来
+ *  db.coding.find({interest:{$size:5}},{name:1,interest:1,age:1,_id:0})
+ *
+ *
+ *  $slice 显示选项
+ *  db.coding.find({},{name:1,interest:{$slice:2},age:1,_id:0})
  *
  *
  *
+ *
+ *
+ *  查询 find的参数使用方法
+ *
+ *  find(query,fields,limit,skip,sort)参数
+ *
+ *  query 查找条件
+ *  fields 显示参数的控制
+ *  limit 返回的数量 后面跟数字 控制每次查询的结果数量
+ *  skip 跳过多少个显示  和limit结合可以实现分页
+ *  sort 排序大小 从小到大1 从大到小-1
+ *
+ * db.coding.find({},{name:true,age:true,_id:false}).limit(0).skip(2).sort({age:1});
+ *
+ *
+ *  $where 修饰符  强大的修饰符 可以使用JavaScript 语法查询  效率变低 安全性能比较差
+ *  db.coding.find({$where:"this.age>30"},{name:1,age:1,_id:0})
+ *
+ *
+ *  hasNext 循环结果
+ *  ```
+ *     var db = connect('companys')  //链接 对应的数据库
+ *     var result = db.coding.find()  //声明变量 将查询结果赋值result
+ *     while(result.hasNext()){      //利用hasNext()游标循环输出结果
+ *      printjson(result.next())     // 使用json格式打印输出
+ *     }
+ *  ```
  *
  *
  * **/
