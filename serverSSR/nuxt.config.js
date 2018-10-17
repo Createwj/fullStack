@@ -1,6 +1,6 @@
 module.exports = {
   /*
-  ** Headers of the page
+  ** Headers of the page 可以覆盖webpack里面的设置
   */
   head: {
     title: 'serverssr',
@@ -16,11 +16,23 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
+  css:['~assets/css/normailze.css','~assets/css/main.css'],     // 引入公共css
+
   loading: { color: '#3B8070' },
   /*
   ** Build configuration
   */
   build: {
+     loaders:[
+      {
+        test:/\.(png|jpe?g|gif|svg)$/,
+        loader:"url-loader",
+        query:{
+          limit:10000,
+          name:'img/[name].[hash].[ext]'
+        }
+      }
+    ],
     /*
     ** Run ESLint on save
     */

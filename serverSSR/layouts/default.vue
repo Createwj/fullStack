@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>nuxt布局模版</p>
     <nuxt/>
   </div>
 </template>
