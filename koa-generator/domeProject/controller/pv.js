@@ -1,5 +1,5 @@
 function pv(ctx){
-  // ctx.session.count++
+  ctx.session.count++
   global.console.log('中间件')
 }
 

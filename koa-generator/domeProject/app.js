@@ -16,6 +16,9 @@ const mongoose = require('mongoose')
 const dbConfig = require('./models/config')
 const config = require('./config')
 const routes = require('./routes')
+const session = require('koa-generic-session')
+const Redis = require('koa-redis')
+
 const pv = require('./controller/pv')
 const m1 = require('./controller/m1')
 const m2 = require('./controller/m2')
@@ -27,6 +30,13 @@ const port = process.env.PORT || config.port
 // require('./routes/index')
 // error handler
 onerror(app)
+
+app.keys=['keys','keyskeys']
+app.use(session({
+  key:'mt',
+  prefix:'mtpr',
+  store:new Redis()
+}))
 
 // middlewares
 

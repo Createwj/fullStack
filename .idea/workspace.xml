@@ -2,20 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30811fae-0996-4eff-803c-d9dd6b60a937" name="Default" comment="mongod 批量导入耗时比较">
-      <change afterPath="$PROJECT_DIR$/Nginx/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/.eslintrc.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/config/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/controller/m1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/controller/m2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/controller/m3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/controller/pv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/models/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/models/person.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/node_modules/.bin/atob" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/node_modules/.bin/babylon" afterDir="false" />
@@ -7828,15 +7814,6 @@
       <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/node_modules/ylru/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/node_modules/ylru/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/node_modules/ylru/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/public/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/routes/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/views/error.njk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/views/index.njk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/views/layout.njk" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/koa-generator/domeProject/views/welcome.njk" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/async.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/bodyparaser.js" afterDir="false" />
@@ -8667,12 +8644,13 @@
       <change afterPath="$PROJECT_DIR$/server/static/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/server/view/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/serverSSR/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/serverSSR/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/znodeexect/node_modules/fresh/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/znodeexect/node_modules/fresh/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/znodeexect/node_modules/qs/test/stringify.js" beforeDir="false" afterPath="$PROJECT_DIR$/znodeexect/node_modules/qs/test/stringify.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/znodeexect/node_modules/send/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/znodeexect/node_modules/send/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/znodeexect/reactInputOne.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/znodeexect/reactInputTwo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-generator/domeProject/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/koa-generator/domeProject/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-generator/domeProject/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-generator/domeProject/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-generator/domeProject/controller/pv.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-generator/domeProject/controller/pv.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-generator/domeProject/models/person.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-generator/domeProject/models/person.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-generator/domeProject/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa-generator/domeProject/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-generator/domeProject/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/koa-generator/domeProject/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/koa-generator/domeProject/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/koa-generator/domeProject/routes/users.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -8686,26 +8664,8 @@
       <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="633">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/routes/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="312">
+              <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -8713,8 +8673,35 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="135">
+              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pv.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/controller/pv.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="person.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/models/person.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -8750,6 +8737,7 @@
       <find>Redis</find>
       <find>routes</find>
       <find>router</find>
+      <find>people</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -8758,7 +8746,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/koaStatic.js" />
         <option value="$PROJECT_DIR$/server/static/index.js" />
         <option value="$PROJECT_DIR$/server/async.js" />
         <option value="$PROJECT_DIR$/mongoDB/goTesk.js" />
@@ -8797,17 +8784,18 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/mongoDB/mork.js" />
         <option value="$PROJECT_DIR$/server/koaView.js" />
-        <option value="$PROJECT_DIR$/koa-generator/domeProject/models/person.js" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/models/config.js" />
-        <option value="$PROJECT_DIR$/koa-generator/domeProject/controller/pv.js" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/controller/ma.js" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/controller/m2.js" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/controller/m1.js" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/controller/m3.js" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/views/welcome" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/routes/index.js" />
-        <option value="$PROJECT_DIR$/koa-generator/domeProject/app.js" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/package.json" />
+        <option value="$PROJECT_DIR$/koa-generator/domeProject/models/person.js" />
+        <option value="$PROJECT_DIR$/koa-generator/domeProject/README.md" />
+        <option value="$PROJECT_DIR$/koa-generator/domeProject/controller/pv.js" />
+        <option value="$PROJECT_DIR$/koa-generator/domeProject/app.js" />
         <option value="$PROJECT_DIR$/koa-generator/domeProject/routes/users.js" />
       </list>
     </option>
@@ -8927,8 +8915,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="394" />
-    <option name="y" value="34" />
+    <option name="x" value="434" />
+    <option name="y" value="47" />
     <option name="width" value="1265" />
     <option name="height" value="867" />
   </component>
@@ -8992,11 +8980,6 @@
               <item name="koa-generator" type="462c0819:PsiDirectoryNode" />
               <item name="domeProject" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="FullStackDeveloper" type="b2602c69:ProjectViewProjectNode" />
-              <item name="FullStackDeveloper" type="462c0819:PsiDirectoryNode" />
-              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -9130,11 +9113,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539774649376</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="mongod 批量导入耗时比较">
+      <created>1540281455532</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1540281455532</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="548" y="63" width="1265" height="867" extended-state="0" />
+    <frame x="800" y="150" width="1265" height="867" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -9143,8 +9133,8 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27532467" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21177432" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.24935065" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.20850368" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32987013" />
@@ -9172,31 +9162,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="." />
     <MESSAGE value="mongodb增删改查" />
-    <MESSAGE value="mongod 批量导入耗时比较" />
     <MESSAGE value="nuxt" />
     <MESSAGE value="服务端渲染 SSR" />
-    <option name="LAST_COMMIT_MESSAGE" value="服务端渲染 SSR" />
+    <MESSAGE value="mongod 批量导入耗时比较" />
+    <option name="LAST_COMMIT_MESSAGE" value="mongod 批量导入耗时比较" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="6" />
+      <option name="time" value="7" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/serverSSR/pages/news/_id.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="5" selection-start-line="20" selection-start-column="2" selection-end-line="27" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serverSSR/app.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="17" lean-forward="true" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/serverSSR/pages/index.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -9420,23 +9396,6 @@
     <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/views/error.njk">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/models/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/models/person.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/config/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -9448,13 +9407,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/controller/pv.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-end-line="11" />
         </state>
       </provider>
     </entry>
@@ -9516,29 +9468,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/routes/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="495">
+          <caret line="33" column="24" lean-forward="true" selection-start-line="33" selection-start-column="24" selection-end-line="33" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/models/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="true" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/models/person.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="42" selection-start-column="42" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/controller/pv.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="633">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="312">
+          <caret line="35" column="11" lean-forward="true" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/koa-generator/domeProject/routes/users.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        <state relative-caret-position="135">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
