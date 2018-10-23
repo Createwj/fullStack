@@ -132,3 +132,40 @@ head(){
 
 建模
 http://jspang.com/post/vue-koa.html#toc-d54
+
+
+
+### koa2链接mongodb数据库
+
+mongoose 概念
+mongoose是封装好的Node和MongoDB数据通讯的数据建模库
+```
+npm install mongoose --save
+```
+
+## mongoose的Schema建模介绍
+
+Schema相当于mongodb数据库的一个映射
+
+Schema中的数据类型
+
+- String 字符串类型
+- Number 数字类型
+- Date 日期 
+- Boolean 布尔
+- Buffer  nodeJS buffer类型
+- ObjectID 主键 一种特殊非常重要的类型
+- Mined 混合类型
+- Array 集合类型
+
+mongoose中的三个概念
+
+schema 用来定义表的模板 实现Mongodb数据库的映射用来实现每个字段的类型长度 映射字段 不具备表的操作能力
+
+model 具备某张表操作能力的一个集合 是mongoose的核心能力
+
+entity 类似记录 由Modal创建的实体 具有影响数据库的操作能力
+
+
+初学定义一个Schema
+
